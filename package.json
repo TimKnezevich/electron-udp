@@ -1,0 +1,35 @@
+{
+  "name": "capacitor-udp",
+  "version": "1.0.0",
+  "description": "An electron plugin to utilize udp cross platform",
+  "main": "electron/plugin.js",
+  "types": "plugin-definition.ts",
+  "capacitor": {
+    "electron": {
+      "npmDependencies": [],
+      "webDir": "electron"
+    }
+  },
+  "scripts": {
+    "test": "udp-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "keywords": [
+    "udp"
+  ],
+  "author": "Tim Knezevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme",
+  "dependencies": {
+    "@capacitor/core": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.2"
+  }
+}
